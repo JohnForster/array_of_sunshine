@@ -88,3 +88,9 @@ then: \
 ![Coverage report](https://imgur.com/zjWEMoc.png)
 ![Coverage report client](https://imgur.com/jkZkOL9.png)
 ![Coverage report server](https://imgur.com/kWLpSZq.png)
+### What we would do next 
+- Improve the Python model which currently returns only very basic array methods
+- Conduct thorough user-testing to find and cover edge cases
+- Increase our test coverage by writing additional tests, particularly on the client-side
+- Create user accounts so history can be retained between browser sessions
+- Extend our product further (additional languages, Atom plug in etc)
