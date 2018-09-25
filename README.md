@@ -1,20 +1,32 @@
-# 🌞🌞 Array of Sunshine 🌞🌞
+# 🌞🌞 Hip Hip Array 🌞🌞
 
 ## 🌞 How to use
+This app is fully deployed on Heroku at https://hip-hip-array.herokuapp.com/
+OR install the code and run locally:
+1. Clone the directory
 
 ```
-$ git clone https://github.com/bibicollins/array_of_sunshine.git
-$ cd array_of_sunshine
+$ git clone https://github.com/bibicollins/Hip-Hip-Array.git
+$ cd Hip-Hip-Array
 $ npm install (requires node to be installed)
+```
+2. Start the back end server 
+```
 $ npm start (web app will open in the browser at localhost:3000)
 ```
+3. Start the front end server 
+```
+In a new terminal window: 
+$ cd client
+$ npm start (web app will open in the browser at localhost:3000)
+``` 
 
 ### 🌞 Our objectives as a team
 
-**1. Our project has a compelling technical aspect
-2. That said, we do not sacrifice developer processes for technical achievement
-3. We consolidate gaps in our learning from the course (we highlighted JSON API calls, client-side programming eg. React)
-4. We prefer a simple and finished output to a complex and messy/unfinished output
+**1. Our project has a compelling technical aspect\
+2. That said, we do not sacrifice developer processes for technical achievement\
+3. We consolidate gaps in our learning from the course (we highlighted JSON API calls, client-side programming eg. React)\
+4. We prefer a simple and finished output to a complex and messy/unfinished output\
 5. We are all able to explain every aspect of the final product**
 
 ### 🌞 Our project
@@ -40,38 +52,34 @@ In practice this is:
 - 10 array methods
 - 1 language - Ruby
 
-### 🌞 Potential future user stories
+### 🌞 User stories
 
 ```
-As a developer,
-So that I can use this functionality when I'm coding
-I want an extension to my text editor which suggests code for me
-
-As a user
-So that I can use the right array method in multiple languages
-I want to be able to input initial and output arrays in eg. Ruby, Javascript, C++,
-Python and Whitespace
-
-As a user
-So that I can learn about different languages
-I want to be able to hover over methods and see information about the method
-
-As a user
-So that I can retain my learnings
-I want to have an account and a search history
+As user
+So that I can use the right array method
+I want to be able to input a simple initial array and a simple target array\ and be given the method which gets me from one to the other
 
 As a user
 So that I can use the tool for more complex methods
 I want to be able to use arrays which take arguments
 
 As a user
-So that I can use the tool for more complex methods
-I want to be able to input other objects than arrays (multi-dimensional arrays,
-hashes, strings)
+So that I can learn about lots of different languages
+I want to be able to use the tool for Ruby, Javascript and Python
+
+As a user
+So that I can revisit my searches 
+I want my queries to be logged in a search history 
+
+As a user
+So that I can use the tool easily 
+I want to access the programme via a clean user interface
 ```
-### Todo
-1. Stack info
-2. Screenshot of the program in action
-3. What we would have done with more time
-4. Test coverage
-5. ...
+### :sun_with_face: Test Coverage 
+To run the tests and see the full coverage report run: 
+`$ npm test`
+then: 
+`$ open coverage/lcov-report/index.html`
+![Coverage report](https://imgur.com/zjWEMoc.png)
+![Coverage report client](https://imgur.com/jkZkOL9.png)
+![Coverage report server](https://imgur.com/kWLpSZq.png)
