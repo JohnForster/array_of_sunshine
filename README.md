@@ -1,4 +1,5 @@
 # 🌞🌞 Hip Hip Array 🌞🌞
+![Screenshot](https://imgur.com/VyqDPoE.png)
 
 ## 🌞 How to use
 This app is fully deployed on Heroku at https://hip-hip-array.herokuapp.com/
@@ -76,9 +77,9 @@ So that I can use the tool easily
 I want to access the programme via a clean user interface
 ```
 ### :sun_with_face: Test Coverage 
-To run the tests and see the full coverage report run: 
-`$ npm test`
-then: 
+To run the tests and see the full coverage report run:
+`$ npm test`\
+then: \
 `$ open coverage/lcov-report/index.html`
 ![Coverage report](https://imgur.com/zjWEMoc.png)
 ![Coverage report client](https://imgur.com/jkZkOL9.png)
