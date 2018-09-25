@@ -1,6 +1,10 @@
 # 🌞🌞 Hip Hip Array 🌞🌞
 ![Screenshot](https://imgur.com/VyqDPoE.png)
-
+## :sun_with_face: Contributors 
+Layth Al-Qattan - https://github.com/laythq \
+Bibi Collins - https://github.com/bibicollins \
+Elishka Flint - https://github.com/elishkaflint \
+John Forster - https://github.com/JohnForster
 ## 🌞 How to use
 This app is fully deployed on Heroku at https://hip-hip-array.herokuapp.com/
 OR install the code and run locally:
