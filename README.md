@@ -88,6 +88,11 @@ then: \
 ![Coverage report](https://imgur.com/zjWEMoc.png)
 ![Coverage report client](https://imgur.com/jkZkOL9.png)
 ![Coverage report server](https://imgur.com/kWLpSZq.png)
+### Process of development 
+We took an Agile approach to structuring our work (daily stand ups, 2 day sprints each followed by a team retrospective).
+We took on a new project after 2 days, because we didn't feel comfortable with our initial idea.
+We used Trello to organise tickets.
+We used TDD to drive creation of each individual model. We wrote retrospective tests for some of the React elements because it was our first time programming with this library.
 ### What we would do next 
 - Improve the Python model which currently returns only very basic array methods
 - Conduct thorough user-testing to find and cover edge cases
